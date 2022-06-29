@@ -1,0 +1,91 @@
+Github: https://bit.ly/3ypgSaQ
+
+internal class Order {
+    List<OrderLine> lineItems;
+    public Boolean isPrepaid {get; set; }
+    public Date dateReceived {get; set; }
+    //...   
+}
+class Person {
+	Car[] carsOwned;
+}
+class Car {
+	Person owner;
+}
+
+class Customer {
+    string name;
+    string address;
+    public virtual string getCreditRating() { 
+       //...
+    }
+}
+class PersonalCustomer : Customer {
+    string creditCardNumber;
+    public override string getCreditRating(){ 
+       return "poor";
+    }
+}
+class CorporateCustomer : Customer {
+    string contactName, creditRating;
+    double creditLimit;
+    Employee salesRep;
+    public string billForMonth(int month) { 
+       //...
+    }
+    public void remind() { //...
+    }
+}
+class Order {
+    Customer cust;
+    List<OrderLine> lineItems;
+    Date dateReceived;
+    Boolean isPrepaid;
+    string number;
+    Money price;
+    public void dispatch() { ... }
+    public void close() { .... }
+    public int getNumber() { ... }
+    public static int getNextNewNumber() { ...}
+}
+class OrderLine {
+    int quantity;
+    Money price;
+    Product p;
+}
+
+class Team {
+}
+class Player {
+	Team t;
+}
+Aggregation = Association + whole/part relation
+Composition = Aggregation + parts not independent
+
+interface EmailSystem { 
+	void send(Message message);
+}
+class SMTPMailSystem : EmailSystem {
+	public void send(Message message) {
+        }
+
+}
+interface Collection {
+    bool equals();
+    void add(object o);
+}
+interface List : Collection {
+    object get(int index);
+}
+abstract class AbstractList : List {
+    bool equals() { ... }
+    void add(object o) { ... }
+    abstract object get(int index);
+}
+class ArrayList : AbstractList {
+    override void add(object o) { ... }
+    object get(int index) { ... }
+}
+
+
+
