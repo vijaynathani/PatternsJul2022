@@ -87,5 +87,27 @@ class ArrayList : AbstractList {
     object get(int index) { ... }
 }
 
+Address: String //No need for class
+Address: house no, street, city, pincode
+
+Q57 - Question 
+S57 - Solution
+Exercise: Day1\Q58
+Soluion: Day1\S58
+
+Duplication:
+Q021: BookRentals; 
+Q11: BookRental; 
+Q33 – SurveyData; 
+Q37 – FOC, TT
+Q10 – Jbutton
+Q34 – replace; 
+Q35 – BookRental
+
+Most application, the bottleneck is not CPU; it is
+the network or disk.
+
+
+
 
 
