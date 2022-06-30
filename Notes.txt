@@ -117,6 +117,7 @@ SRP: Q50, Q51, Q55
 Pure Function: Q60, Q61
 Big Algo - Pipe between classes  - Q62
 
-Self documenting code: Q20, Q06, Q07, Q21, Q22, Q23
+Self documenting code: Q20, Q06, Q07, Q21, Q22, Q23, Q25
+
 
 
