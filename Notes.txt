@@ -119,5 +119,7 @@ Big Algo - Pipe between classes  - Q62
 
 Self documenting code: Q20, Q06, Q07, Q21, Q22, Q23, Q25
 
+	i + j - k;
+Name all hard-coded constants - Q32
 
 
