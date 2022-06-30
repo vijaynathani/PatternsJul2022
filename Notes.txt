@@ -123,3 +123,20 @@ Self documenting code: Q20, Q06, Q07, Q21, Q22, Q23, Q25
 Name all hard-coded constants - Q32
 
 
+
+void f1() {
+   try {
+	smallfunc0();
+	smallfunc1();
+	smallfunc2();
+	smallfunc3();
+    } catch (Exception1 ex) {
+	log(ex.getMessage());
+        giveUserMessage(ex.getMessage());
+    }    
+}
+
+Samurai principle - Q32
+
+
+
