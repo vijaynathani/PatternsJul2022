@@ -138,5 +138,16 @@ void f1() {
 
 Samurai principle - Q32
 
+class Retangle {
+	public void setWidth() { ... }
+        public virtual void setHeight() { ... }
+}
+class Square : Rectangle {
+	public override void setHeight() { throw Exception(); }	
 
+Why Design Patterns?
+- Reuse of existing design.
+- Faster
+- Understanding
 
+Exercise: HRapplication.
