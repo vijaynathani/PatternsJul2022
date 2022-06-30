@@ -1,5 +1,4 @@
-Github: https://bit.ly/3ypgSaQ
-
+Day 1:
 internal class Order {
     List<OrderLine> lineItems;
     public Boolean isPrepaid {get; set; }
@@ -107,6 +106,9 @@ Q35 – BookRental
 Most application, the bottleneck is not CPU; it is
 the network or disk.
 
+Day 2:
+Github: https://bit.ly/3ypgSaQ
+Exercises in Day2 folder: Q022, Q01, Q56, Q59
 
 
 
