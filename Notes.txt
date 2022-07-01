@@ -166,3 +166,27 @@ Polymorphism: Q30, Q40Smell, Q43smell, Q36.
 
  Q94, Q91 - DIP
 S94.cs is in Trng\Demo1
+
+Decorator:
+	Black Tea = Rs 50 = new Tea();
+	Tea + Milk = Rs 60 = new Milk(new Tea());
+        Tea + Sugar = Rs 55 = new Sugar(new Tea());
+	Tea = Rs 65 = new Sugar(new Milk(new Tea()));
+	Coffee Black = Rs 80 = new Coffee
+	Coffee + milk = Rs 90
+	Coffee + sugar = Rs 85
+	Coffee = Rs 95
+
+	new Tags(new PhotoBorder(new PlainPhoto()));
+	new VerticalScrollBar(
+		new HorizontalScrollBar(new Window()));
+	new ExistingFileCheck (new Report())
+
+Report 1: 1 to 500
+Report 2: A-Z 10 times
+Header1: Date
+Header2: Company name
+Footer1: Time
+Footer2: Company address
+	new Footer2(new Header2(new Header1(new Report1())))
+DecoratorAssignment.cs
