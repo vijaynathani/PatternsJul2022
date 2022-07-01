@@ -153,3 +153,13 @@ Exercise: HRapplication.
 =================================================
 Github: https://bit.ly/3ypgSaQ
 Day 3
+if (tc == 1) 
+	...
+else if (tc == 2)
+	...
+else if (tc == 3)
+	...
+else
+	throw new Exception("...");
+
+Polymorphism: Q30, Q40Smell, Q43smell, Q36.
