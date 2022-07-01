@@ -163,3 +163,5 @@ else
 	throw new Exception("...");
 
 Polymorphism: Q30, Q40Smell, Q43smell, Q36.
+
+ Q94,Q91 - DIP
