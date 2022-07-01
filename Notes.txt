@@ -164,4 +164,5 @@ else
 
 Polymorphism: Q30, Q40Smell, Q43smell, Q36.
 
- Q94,Q91 - DIP
+ Q94, Q91 - DIP
+S94.cs is in Trng\Demo1
