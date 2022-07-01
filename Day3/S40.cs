@@ -42,10 +42,11 @@ class ListSchedule : Schedule {
 class Course {
     string courseTitle;
     Schedule schedule;
-    int getDurationInDays() {
+	//...
+    public int getDurationInDays() {
         return schedule.getDurationInDays();
     }
-    void printSchedule() {
+    public void printSchedule() {
         schedule.print();
     }
 }
