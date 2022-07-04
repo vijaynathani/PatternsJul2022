@@ -222,5 +222,6 @@ How to avoid Null checking?
 	- Document
 Q28 - S28
 
-
-
+	"abc:123:pqr:xyz"
+Bad Function signatures: Q53 and Q73
+Law of Demter: Q26
