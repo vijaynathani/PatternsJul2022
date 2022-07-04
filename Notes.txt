@@ -205,6 +205,17 @@ Object Pool
 		Release the Reusable object to ReusablePool		
 		Print release message for the count of Reusable or Thread id.
 
+Singleton can inherit from another class.
+It can implement interfaces.
+
+MultiTon
+	"A" - Resuable(1)
+	"C" - Resuable(2)
+	"A" - existing Reusable(1)
+	"D" - Resuable(3)
+
+
+
 
 
 
