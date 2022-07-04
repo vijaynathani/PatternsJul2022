@@ -215,13 +215,12 @@ MultiTon
 	"D" - Resuable(3)
 
 How to avoid Null checking?
-	- Return empty string or empty collection
+	- Return empty string or empty collection or zero
 	- Null pattern
-	- Optional
-			Optional<int> divide (int numerator, int denominator, Optional<int> multipiler)
+	- Optional class or something equivalent
+	- Throw exception
 	- Document
-
-
+Q28 - S28
 
 
 
