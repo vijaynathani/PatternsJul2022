@@ -190,3 +190,21 @@ Footer1: Time
 Footer2: Company address
 	new Footer2(new Header2(new Header1(new Report1())))
 DecoratorAssignment.cs
+
+Day 4:
+Object Pool
+	For Reusable, create 10 objects.
+	Reusable pool is a thread-safe singleton to manage Reusable.
+	In client start 20 threads.
+	Each thread
+          While(1)
+		Wait for a random amount of seconds
+		Ask ReusablePool for Reusable object.
+		Print the count of Reusable or Thread id.
+		Wait for a random amount of seconds
+		Release the Reusable object to ReusablePool		
+		Print release message for the count of Reusable or Thread id.
+
+
+
+
