@@ -29,7 +29,7 @@ namespace Trng.Demo1
     }
     internal class Stamps
     {
-        HasCents hc = new HasCents();
+        readonly HasCents hc = new();
         public void FiveCentsInserted() => hc.Add(5);
         public void TenCentsInserted() => hc.Add(10);
         public void ReturnPressed() => hc.Cancel();

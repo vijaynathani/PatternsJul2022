@@ -265,6 +265,8 @@ Design Patterns had come before C#, Java and C++ STL.
 	gh	
 		XYZ,PQR
 
+Builder DP
+	- When you have a large number of constructors
+	- Constructor is large /complex
 
-
-
+Day 6:
