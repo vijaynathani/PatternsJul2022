@@ -225,3 +225,14 @@ Q28 - S28
 	"abc:123:pqr:xyz"
 Bad Function signatures: Q53 and Q73
 Law of Demter: Q26
+
+Day 5:
+SRP, OCP, LSP, ISP, DIP
+OCP: Q45 – LoanHandler 
+Q44 – FILE1, DATABASE1
+Q39 - Scheduler
+Q83 – Cooker
+Q84 – ChooseFontDialog
+
+
+
