@@ -245,6 +245,21 @@ Q74 – BitmapButton
 Q75 – PropertyFileWriter
 Avoid deep Inheritance Hierarchy:  Q76
 
+Design Patterns had come before C#, Java and C++ STL.
+
+	2	4
+	3	9
+	2	
+	5	25
+		Total 38
+	
+	a	
+	ab	
+	xyz	XYZ
+	pqr	PQR
+	gh	
+		XYZ,PQR
+
 
 
 
