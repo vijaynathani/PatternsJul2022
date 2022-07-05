@@ -1,3 +1,3 @@
-﻿using Demo1;
+﻿using System;
 
-new Class1().test();
+Console.WriteLine("Welcome");
