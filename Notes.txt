@@ -252,6 +252,11 @@ Design Patterns had come before C#, Java and C++ STL.
 	2	
 	5	25
 		Total 38
+
+
+	new BusinessLogic(new DAO())
+	new BusinessLogic (new Proxy();
+
 	
 	a	
 	ab	
