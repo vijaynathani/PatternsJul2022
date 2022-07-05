@@ -228,11 +228,23 @@ Law of Demter: Q26
 
 Day 5:
 SRP, OCP, LSP, ISP, DIP
-OCP: Q45 – LoanHandler 
+OCP: 
+Q45 – LoanHandler 
 Q44 – FILE1, DATABASE1
 Q39 - Scheduler
 Q83 – Cooker
 Q84 – ChooseFontDialog
+
+Inheritance:
+Q72Inheri: Employee, LinkList
+Q31 - UserAccount
+Q71inheri – CourseCatalog    
+Q52 – NormalPayment		
+Q54 – Account
+Q74 – BitmapButton             
+Q75 – PropertyFileWriter
+Avoid deep Inheritance Hierarchy:  Q76
+
 
 
 
