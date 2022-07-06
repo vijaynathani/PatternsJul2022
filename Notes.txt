@@ -296,7 +296,7 @@ if Afferent coupling/Fan in is low
 
 Compare speed Assignment:
 	Class C1 { int i, j, k;
-                   long x, y, z;
+                   long x, y, z, x2, x4;
 		   double d1, d2;
             //Random values to these items.
         }
@@ -308,5 +308,8 @@ Compare speed Assignment:
 	Serialize C1 object to set of bytes.
 	1 million times deserialize the same set of bytes
 
+Visitor DP:
+1. To eliminate RTTI
+2. To add functionality to a group of classes without corrupting them.
 
 
