@@ -286,9 +286,27 @@ s += f2();                  s.Append(f2());
 List
 
 Break Cycles: Q80, Q81 and Q82
+Cyclomatic complexity number of a function =
+	no of differnt paths in that function
 
+if cyclomatic complexity is low
+	then the class is well designed
+if Afferent coupling/Fan in is low
+	then hardly anyone is using this class
 
-
+Compare speed Assignment:
+	Class C1 { int i, j, k;
+                   long x, y, z;
+		   double d1, d2;
+            //Random values to these items.
+        }
+1) Manual copy:
+	Create 1 million copies of a C1 object
+2) Clone: Prototype
+	Create 1 million clones of a C1 object
+3) Memento: Serialization
+	Serialize C1 object to set of bytes.
+	1 million time deserialize 
 
 
 
