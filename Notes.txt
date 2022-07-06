@@ -278,6 +278,17 @@ Point2 is better because
 - less error prone. - Automatic.
 - Sharable - Code to save memory.
 
+string s = "";              var s = new StringBuilder("");
+s += f1();		    s.Append(f1());
+s += " ";		    s.Append(" ");
+s += f2();                  s.Append(f2());
+			    s.ToString();
+List
+
+Break Cycles: Q80, Q81 and Q82
+
+
+
 
 
 
