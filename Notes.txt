@@ -312,4 +312,4 @@ Visitor DP:
 1. To eliminate RTTI
 2. To add functionality to a group of classes without corrupting them.
 
-
+Patterns code in OOADandPatterns Visual Studio solution.
