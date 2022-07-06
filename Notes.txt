@@ -302,11 +302,11 @@ Compare speed Assignment:
         }
 1) Manual copy:
 	Create 1 million copies of a C1 object
-2) Clone: Prototype
+2) Clone or Prototype
 	Create 1 million clones of a C1 object
-3) Memento: Serialization
+3) Memento or Serialization/Deserialization
 	Serialize C1 object to set of bytes.
-	1 million time deserialize 
+	1 million times deserialize the same set of bytes
 
 
 
