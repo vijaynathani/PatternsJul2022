@@ -270,3 +270,14 @@ Builder DP
 	- Constructor is large /complex
 ==================================================
 Day 6:
+new SpamHandler(new FanHandler (new ComplaintHandler(
+		new OrderHandler(new ManualP()))))
+
+Point2 is better because
+- it is a thread-safe object. - Automatic.
+- less error prone. - Automatic.
+- Sharable - Code to save memory.
+
+
+
+
